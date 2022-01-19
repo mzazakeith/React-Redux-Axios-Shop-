@@ -1,4 +1,4 @@
-import {ActionTypes} from '..actionTypes/actionTypes'
+import {ActionTypes} from '../actionTypes/actionTypes'
 
 export const setProducts = products => {
     return{
@@ -11,7 +11,7 @@ export const setProducts = products => {
 
 export const selectedProduct = product => {
     return{
-        type: ActionTypes. SELECTED_PRODUCT,
+        type: ActionTypes.SELECTED_PRODUCT,
         payload:{
             product
         }
