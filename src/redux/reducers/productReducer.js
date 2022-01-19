@@ -1,6 +1,6 @@
 import {ActionTypes} from '../actionTypes/actionTypes'
 
-export const productReducer = (state=[],action) => {
+const productReducer = (state=[],action) => {
     switch (action.type){
         case ActionTypes.SET_PRODUCTS :
             return state;
@@ -8,3 +8,5 @@ export const productReducer = (state=[],action) => {
             return state;
     }
 };
+
+export default productReducer
