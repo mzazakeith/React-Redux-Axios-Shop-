@@ -1,10 +1,10 @@
 import React from "react";
+import Product from './Product';
 
 const ProductListing = () =>{
     return(
         <div className="ui grid container">
-            <br/>
-            <h1>ProductListing</h1>
+            <Product/>
         </div>
     );
 };
